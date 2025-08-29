@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ ::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark track */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444; /* Thumb color */
+  border-radius: 5px;
+  border: 2px solid #1e1e1e; /* Seamless blend with track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666; /* Slightly lighter on hover */
+}
+.fontcolor {
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+a:hover {
+    text-decoration: underline;
+}
+.bor{
+    /* border: 2px solid red; */
+}
+body{
+    background-color: black;
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 36vw;
+    height: 7vh;
+    margin-top: 7px;
+    border-radius: 28px;
+    /* border: 2px solid red; */
+    background-color: #2a2a2a;
+}
+
+#u {
+    display: flex;
+}
+#navleft {
+    display: flex;
+    width: 60vw;
+}
+#navright {
+    display: flex;
+    gap: 4px;
+    width: 40vw;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: space-around; */
+
+}
+.under {
+    text-decoration: none;
+}
+.gp {
+    padding: 12px;
+}
+#ins {
+    padding: 4px 16px 4px 36px;
+}
+.line {
+    
+    background: #fff;
+    height: 25px;
+    margin: 16px;
+    width: 1px;
+}
+#logbtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    background-color: white;
+    width: 5vw;
+    height: 6vh;
+}
+
+#img1 {
+    margin: 10px;
+}
+#img2 {
+    margin: 10px;
+}
+#img3 {
+    
+}
+#srch {
+    width: 30vw;
+    height: 7vh;
+    background-color: #2a2a2a;
+    border: none;
+    
+}
+
+#img4 {
+
+}
+.sp {
+    display: flex;
+    flex-direction: row;
+}
+.leftdiv {
+    /* display: flex; */
+    width: 25vw;
+    border-radius: 10px;
+    background-color: #121212;
+    margin: 10px;
+    height: 88vh;
+    /* border: 2px solid red; */
+
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    margin: 10px;
+    justify-content:space-between;
+    width: 22vw;
+    height: 8vh;
+}
+.twdiv {
+    width: 22vw;
+    padding: 15px;
+    color: white;
+    /* border: 2px solid red; */
+    background-color: #1f1f1f;
+    margin: 8px;
+    border-radius: 12px;
+    height: 18vh;
+}
+.twdiv h4  {
+    padding-bottom: 12px;
+}
+.twdiv h5  {
+    padding-bottom: 12px;
+}
+.twdiv button {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 12px;
+    border: none;
+}
+
+.rightdiv {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #121212;
+    width: 75.5vw;
+    margin: 10px;
+    height: 88vh;
+    /* border: 2px solid red; */
+
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 72vw;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 8px;
+    /* border: 2px solid white; */
+    height: 78vh;
+    overflow: auto;
+    /* font-size: 1em; */
+}
+.content h2 {
+    font-size: 1rem;
+    color: white;
+}
+.f {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.head1 {
+    /* margin: 25px; */
+    width: 69vw;
+    height: 5vh;
+    display: flex;
+    justify-content:space-between;
+    /* border: 2px solid red; */
+}
+
+.cardcontainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    width: 12vw;
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+    border-radius: 5px;
+    /* background-color: grey; */
+}
+.card > *{
+    padding-top: 8px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.playbar {
+    width: 72vw;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    /* border: 2px solid blue; */
+    height: 9vh;
+    background-color: #1fdf64;
+    /* background-color: #1ED760; */
+    border-radius: 10px;
+}
+#pauseBtn, #playBtn {
+  cursor: pointer;
+}
